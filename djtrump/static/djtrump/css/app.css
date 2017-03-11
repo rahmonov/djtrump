@@ -8,7 +8,6 @@ body {
 }
 
 #header {
-    min-height: 40px;
     background-color: blanchedalmond;
     padding: 5px;
 }
@@ -73,4 +72,8 @@ body {
     display: block;
     width: 0;
     z-index: 0;
+}
+
+#personal-form{
+    text-align: center;
 }
