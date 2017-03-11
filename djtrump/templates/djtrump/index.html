@@ -14,6 +14,8 @@
 <body>
 
     <div id="header">
+        <a href="/" id="home-link">Home</a>
+
         <form action="{% url 'personalize' %}" method="post" id="personal-form">
             {% csrf_token %}
 
@@ -21,6 +23,9 @@
 
             <input type="submit" value="Personalize">
         </form>
+
+        <a href="https://whatdoestrumpthink.com/api-docs/index.html" id="api-link" target="_blank">API</a>
+
     </div>
 
     <div id="main-wrap">

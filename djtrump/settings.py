@@ -133,4 +133,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'djtrump/static'),
 )
 
+DONALD_IMAGES_PATH = os.path.join(BASE_DIR, 'djtrump/static/djtrump/images')
 BASE_API_URL = 'https://api.whatdoestrumpthink.com/api/v1'

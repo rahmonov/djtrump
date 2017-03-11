@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 /* sizes */
@@ -21,7 +22,6 @@ body {
 #left-side {
     float: left;
     width: 50%;
-    background-color: paleturquoise;
 }
 
 #right-side {
@@ -44,7 +44,6 @@ body {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    margin-left: 40px;
     margin-top: 40px;
 }
 
@@ -75,5 +74,14 @@ body {
 }
 
 #personal-form{
+    display: inline-block;
     text-align: center;
+}
+
+#home-link{
+    float: left;
+}
+
+#api-link{
+    float: right;
 }

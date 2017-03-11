@@ -23,7 +23,7 @@ def random_donald_image(path):
 
     Usage:  <img src='{% random_image "images/whatever/" %}'>
     """
-    fullpath = os.path.join(settings.STATIC_ROOT, path)
+    fullpath = settings.DONALD_IMAGES_PATH
     filenames = [f for f in os.listdir(fullpath) if is_image_file(f)]
     pick = random.choice(filenames)
     return posixpath.join(settings.STATIC_URL, path, pick)
