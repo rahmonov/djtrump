@@ -17,11 +17,12 @@
 
     <div id="main-wrap">
         <div id="left-side">
-
             <img src="{% random_donald_image 'djtrump/images' %}" id="donald-image">
         </div>
         <div id="right-side">
-            <h2>{{ data.message }}</h2>
+            <div class="bubble">
+              {{ data.message }}
+            </div>
         </div>
     </div>
 
