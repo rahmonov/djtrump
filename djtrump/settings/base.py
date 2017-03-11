@@ -13,8 +13,8 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.join(os.path.dirname(__file__), '../..')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -26,7 +26,8 @@ SECRET_KEY = ')(3ezz(ltti0s-xw^py#i5om-9zw*4wxrp(1e4=ibn!v9fao9)'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '104.236.57.112'
+    '104.236.57.112',
+    'localhost'
 ]
 
 
