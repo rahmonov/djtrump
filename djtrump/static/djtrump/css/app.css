@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+/* sizes */
+#main-wrap > div { min-height: 450px; }
+
+#header{
+    min-height: 40px;
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+#left-side {
+    float: left;
+    width: 50%;
+    background-color: paleturquoise;
+}
+
+#right-side {
+    float: right;
+    width: 50%;
+    background-color: cornsilk;
+}
+
+#donald-image{
+    width: 100%;
+}
