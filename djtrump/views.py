@@ -2,6 +2,7 @@ import requests
 
 from django.conf import settings
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def index(request):
@@ -10,4 +11,4 @@ def index(request):
     if not res.ok:
         return HttpResponse('Something went wrong. Please, try again later.')
 
-    return HttpResponse('Trump says: {message}'.format(message=res.json()['message']))
+    return render(request, 'djtrump/index.html', {'data': res.json()})
