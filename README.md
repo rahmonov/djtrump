@@ -1,5 +1,5 @@
 # Django Trump
-<img src="djtrump/static/djtrump/images/app.png">
+<img src="djtrump/static/djtrump/app.png">
 
 ## Description
 A web app that shows Donald Trump and a random quote of his. Quotes can be personalized. The app makes use of [whatdoestrumpthink](https://whatdoestrumpthink.com/) API.
