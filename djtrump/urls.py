@@ -3,7 +3,7 @@ from django.contrib import admin
 
 from djtrump import views
 
-# dumb comment ass
+# dumb comment assaasdas
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
