@@ -5,6 +5,6 @@ node {
         checkout scm
 
     stage 'Test'
-        sh './manage.py test'
+        sh 'python3.5 manage.py test'
 
 }
