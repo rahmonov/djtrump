@@ -1,10 +1,10 @@
-pipeline {
-    agent { docker 'python:3.5.1' }
-    stages {
-        stage('build') {
-            steps {
-                sh 'python --version'
-            }
-        }
-    }
+#!groovy
+
+node {
+    stage 'Checkout'
+        checkout scm
+
+    stage 'Test'
+        sh 'python --version'
+
 }
