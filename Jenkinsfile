@@ -5,6 +5,8 @@ node {
         checkout scm
 
     stage 'Test'
+        env.DATABASE_NAME = env.BUILD_NUMBER
+
         sh 'virtualenv env -p python3.5'
         sh '. env/bin/activate'
         sh 'env/bin/pip install -r requirements.txt'

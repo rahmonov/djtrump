@@ -83,14 +83,11 @@ WSGI_APPLICATION = 'djtrump.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djtrump',
+        'NAME': os.environ.get('DATABASE_NAME', 'djtrump'),
         'USER': 'postgres',
-        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators

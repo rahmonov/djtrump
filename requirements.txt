@@ -2,3 +2,5 @@ Django==1.10.6
 psycopg2==2.7
 requests==2.13.0
 gunicorn==19.7.0
+pytest-django==3.1.2
+
