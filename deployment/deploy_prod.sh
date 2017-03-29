@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 ssh root@104.236.57.112 <<EOF
   cd djtrump
