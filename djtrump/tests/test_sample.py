@@ -7,3 +7,6 @@ class SampleTestCase(TestCase):
 
     def test_nine_minus_three(self):
         self.assertEqual(9-3, 6)
+
+    def test_fail(self):
+        self.fail('Deliberate failure')
