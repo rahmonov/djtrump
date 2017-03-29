@@ -12,5 +12,8 @@ node {
 
     stage 'Deploy'
         sh './deployment/deploy_prod.sh'
+
+    stage 'Publish results'
+        slackSend color: 'good', message: 'Successfully updated & deployed'
 }
 
