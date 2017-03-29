@@ -77,7 +77,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'djtrump.wsgi.application'
 
 
-# Database
+# Database (local)
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
 DATABASES = {
