@@ -19,7 +19,7 @@
         <form action="{% url 'personalize' %}" method="post" id="personal-form">
             {% csrf_token %}
 
-            <input type="text" placeholder="Your name" name="name" value="{{ name }}">
+            <input type="text" placeholder="Type your name" name="name" value="{{ name }}">
 
             <input type="submit" value="Personalize">
         </form>
