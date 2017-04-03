@@ -6,5 +6,4 @@ class SampleTestCase(TestCase):
         self.assertEqual(2+2, 4)
 
     def test_nine_minus_three(self):
-        self.fail('temp fail')
-        # self.assertEqual(9-3, 6)
+        self.assertEqual(9-3, 6)
